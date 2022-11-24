@@ -1,0 +1,48 @@
+.body-container{
+    background-color: #0d1a2d;
+    height: 1500px;
+    color:white;
+}
+.box{
+    position: relative;
+    top: 300px;
+    left: 800px;
+    background-color: #15273f;
+    /* border:1px solid white; */
+    border-radius: 10px;
+    height: 720px;
+    width: 330px;
+}
+.image img{
+    border-radius: 10px;
+    height:300px;
+    width: 300px;
+
+}
+.content{
+    /* width: 500px; */
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    /* height: 800px; */
+    align-items: flex-start;
+}
+.line{
+ background-color:#a9b8c1;
+ height: .5px;
+ width: 300px;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 50px;
+}
+.profile img{
+    border:2px solid white;
+    border-radius: 50px;
+}
